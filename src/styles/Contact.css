@@ -1,0 +1,144 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Container for the contact page */
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling for the contact section */
+.contact {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Individual sections for contact information */
+.contact-info, .contact-address, .contact-social {
+    margin-bottom: 20px;
+}
+
+/* Headers for each contact section */
+.contact-info h3, .contact-address h3, .contact-social h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph content styling */
+.contact-info p, .contact-address p, .contact-social p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Back button styling */
+.back-button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+    background-color: #f5ba3c;
+    color: black;
+    border: 2px solid black;
+}
+/* Contact form styling */
+/* Contact form styling */
+.contact-form {
+    margin-top: 20px;
+    text-align: left; /* Aligns text and form elements to the left */
+    padding: 0; /* Removes any padding in the form container */
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left; /* Ensures the header aligns to the left */
+}
+
+.contact-form .form-group {
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    margin-bottom: 15px; /* Custom margin for spacing between groups */
+    display: block; /* Ensures the form group takes the full width */
+}
+
+.contact-form .form-group label {
+    font-size: 1em;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%; /* Ensures the input and textarea take up full width */
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 0; /* Remove any margin from the left */
+}
+
+.contact-form .form-group textarea {
+    height: 150px;
+}
+
+.contact-form .submit-button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+    display: inline-block; /* Keeps the submit button inline */
+}
+
+.contact-form .submit-button:hover {
+    background-color: #f5ba3c;
+    color: black;
+    border: 2px solid black;
+}
+
+
+
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    .contact-info h3, .contact-address h3, .contact-social h3 {
+        font-size: 1.25em; /* Smaller size for mobile */
+    }
+
+    .contact-info p, .contact-address p, .contact-social p {
+        font-size: 0.9em; /* Smaller size for mobile */
+    }
+
+    .contact {
+        padding: 10px; /* Less padding for mobile */
+    }
+}

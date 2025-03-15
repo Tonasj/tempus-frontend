@@ -9,6 +9,7 @@ import Header from './components/Header';
 import InfoBox from './components/InfoBox'; 
 import ButtonGroup from './components/ButtonGroup'; 
 import Footer from './components/Footer'; 
+import PriceChart from './components/ElectricityGraph';
 
 const App: React.FC = () => {
   const [activeService, setActiveService] = useState<string>('fingrid');
@@ -43,6 +44,7 @@ const App: React.FC = () => {
       <Header />
       <Container fluid>
         <InfoBox />
+        <PriceChart />
         <ButtonGroup activeService={activeService} setActiveService={setActiveService} />
         <Row className="justify-content-center">
           <Col md={8}>

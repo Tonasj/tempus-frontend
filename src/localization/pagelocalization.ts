@@ -182,6 +182,32 @@ const resources = {
     "content12": "We reserve the right to update this privacy policy as necessary due to the development of the Application or changes in legislation. Significant changes will be communicated through the Application or on our website. We recommend that users regularly review the privacy policy.",
     "header13": "13. Contact Information",
     "content13": "If you have any questions about this privacy policy or the processing of your data, please contact:\n\nKaakkois-Suomen Ammattikorkeakoulu – XAMK\n\nDevelopment and Research Unit Active Life Lab\n\nBusiness ID: 2472908-2\n\nAddress: PL 68 (Patteristonkatu 3)\n\n50101 Mikkeli\n\nPhone switchboard: +358406550555\n\nPerson Responsible for the Register\n\nName: Tuomas Reijonen\n\nEmail: tuomas.reijonen@xamk.fi\n\nPhone: +358406550555"
+  },
+  "contact": {
+    "header": "Contact Us",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message",
+    "submitButton": "Send Message",
+    "backButton": "Back",
+    "contactInfo": {
+      "header": "Contact Information",
+      "university": "South Eastern Finland University of Applied Sciences",
+      "address": "PL 68 (Patteristonkatu 3 D)",
+      "postalCode": "50101 Mikkeli",
+      "businessId": "Business ID: 2472908-2"
+    },
+    "campus": {
+      "header": "Mikkeli Campus",
+      "address": "Patteristonkatu 3",
+      "postalCode": "50100 Mikkeli",
+      "phone": "Campus Info: +358 40 647 4456"
+    },
+    "social": {
+      "header": "Contact Email",
+      "email": "tuomas.reijonen@xamk.fi"
+    }
   }
     }
   },
@@ -359,6 +385,32 @@ const resources = {
     "content12": "Pidätämme oikeuden päivittää tätä tietosuojakäytäntöä tarvittaessa Sovelluksen kehityksen tai lainsäädännön muutosten myötä. Mahdollisista merkittävistä muutoksista tiedotetaan Sovelluksen kautta tai verkkosivustollamme. Suosittelemme käyttäjiä tutustumaan tietosuojakäytäntöön säännöllisesti.",
     "header13": "13. Yhteystiedot",
     "content13": "Jos sinulla on kysyttävää tästä tietosuojakäytännöstä tai tietojesi käsittelystä, ota yhteyttä:\n\nKaakkois-Suomen Ammattikorkeakoulu – XAMK\n\nKehitys- ja tutkimusyksikkö Active Life Lab\n\nY-tunnus: 2472908-2\n\nOsoite: PL 68 (Patteristonkatu 3)\n\n50101 Mikkeli\n\nPuhelinvaihde: +358406550555\n\nRekisteristä vastaava henkilö\n\nNimi: Tuomas Reijonen\n\nSähköposti: tuomas.reijonen@xamk.fi\n\nPuhelin: +358406550555"
+  },
+  "contact": {
+    "header": "Ota yhteyttä",
+    "emailLabel": "Sähköposti",
+    "emailPlaceholder": "Syötä sähköpostiosoitteesi",
+    "messageLabel": "Viesti",
+    "messagePlaceholder": "Kirjoita viesti",
+    "submitButton": "Lähetä viesti",
+    "backButton": "Takaisin",
+    "contactInfo": {
+      "header": "Yhteystiedot",
+      "university": "Kaakkois-Suomen ammattikorkeakoulu",
+      "address": "PL 68 (Patteristonkatu 3 D)",
+      "postalCode": "50101 Mikkeli",
+      "businessId": "Y-tunnus: 2472908-2"
+    },
+    "campus": {
+      "header": "Mikkelin kampus",
+      "address": "Patteristonkatu 3",
+      "postalCode": "50100 Mikkeli",
+      "phone": "Kampusinfo: +358 40 647 4456"
+    },
+    "social": {
+      "header": "Yhteydenotto sähköpostilla",
+      "email": "tuomas.reijonen@xamk.fi"
+    }
   }
     }
   }

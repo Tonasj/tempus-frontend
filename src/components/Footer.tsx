@@ -98,6 +98,13 @@ const Footer: React.FC = () => {
         <Row className='justify-content-center mt-3'>
           <Col md={6} className="text-center">
             <p className="text-white mb-0">
+              <a href="/contact" className="text-white">{t('contact.header')}</a>
+            </p>
+          </Col>
+        </Row>
+        <Row className='justify-content-center mt-3'>
+          <Col md={6} className="text-center">
+            <p className="text-white mb-0">
               <a href="/privacy-notice" className="text-white">{t('privacy.header0')}</a> {/* Privacy Policy */}
             </p>
           </Col>
