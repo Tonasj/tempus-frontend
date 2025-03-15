@@ -1,0 +1,38 @@
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: tempusFrontEndProd # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: "./build" # set this to the path to your web app project, defaults to the repository root
+  NODE_VERSION: "18" # set this to the node version to use
+  CI: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{env.NODE_VERSION}}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: |
+          npm i
+          npm cache clean --force
+
+      - name: Build Project
+        run: npm run build
+
+      - name: "Deploy to Azure"
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}

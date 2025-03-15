@@ -44,7 +44,6 @@ const App: React.FC = () => {
       <Header />
       <Container fluid>
         <InfoBox />
-        <PriceChart />
         <ButtonGroup activeService={activeService} setActiveService={setActiveService} />
         <Row className="justify-content-center">
           <Col md={8}>
